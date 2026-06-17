@@ -199,4 +199,4 @@ void app_main(void)
     }
 }
 
-#endif /* EXAMPLE_HTTP */
+#endif /* EXAMPLE_HTTP_SERVER */

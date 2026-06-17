@@ -1,17 +1,17 @@
 /**
- * @file    app_dhcp_dns.c
+ * @file    app_main.c
  * @brief   DHCP + DNS example for STM32F412 + W6300 SoM
  *
  * @details Obtains an IP address via DHCP, then resolves a target domain
  *          name using DNS.  Based on WIZnet-PICO-C dhcp_dns example,
  *          adapted for STM32 HAL + W6300 QSPI.
  *
- * @note    SysTick (1 ms tick) must call app_dhcp_dns_time_tick() so that
+ * @note    SysTick (1 ms tick) must call app_timer_tick() so that
  *          DHCP and DNS timeouts work correctly.
  *          Add the following to SysTick_Handler() in stm32f4xx_it.c:
  *
- *            extern void app_dhcp_dns_time_tick(void);
- *            app_dhcp_dns_time_tick();
+ *            extern void app_timer_tick(void);
+ *            app_timer_tick();
  */
 #include "main.h"
 
@@ -77,7 +77,7 @@ static uint8_t g_dhcp_get_ip_flag = 0;
 static uint8_t g_dns_target_ip[4] = {0};
 static uint8_t g_dns_get_ip_flag  = 0;
 
-/* Timer (1 ms tick counter → 1 s period for DHCP/DNS handlers) */
+/* Timer (1 ms tick counter, 1 s period for DHCP/DNS handlers) */
 static volatile uint16_t g_msec_cnt = 0;
 
 /* ============================================================ */
@@ -106,9 +106,9 @@ static void cb_dhcp_conflict(void)
 }
 
 /* ============================================================ */
-/* Timer tick — call from SysTick_Handler every 1 ms             */
+/* Timer tick, called from SysTick_Handler every 1 ms            */
 /* ============================================================ */
-void app_dhcp_dns_time_tick(void)
+void app_timer_tick(void)
 {
     g_msec_cnt++;
 

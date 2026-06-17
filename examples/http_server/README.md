@@ -2,32 +2,29 @@
 
 ## Overview
 
-Simple HTTP server for the STM32F412 + W6300 SoM. Serves a static web page on port 80. Open a browser and navigate to the board's IP address to see the page. Based on the WIZnet-PICO-C http server example.
+Simple HTTP server for the STM32F412 + W6300 SoM. It serves a static web page
+on port 80. Open a browser and navigate to the board IP address to see the page.
 
-Uses 4 sockets for concurrent HTTP connections.
-
-Supports both **DHCP** and **static IP**.
+This example is based on the WIZnet-PICO-C HTTP server example.
 
 ## Hardware
 
 - STM32F412 + W6300 SoM
-- Ethernet cable (connected to the same network as the test PC)
+- Ethernet cable connected to the same network as the test PC
 
 ## Socket Allocation
 
 | Socket | Usage |
 |--------|-------|
-| 0      | DHCP  |
-| 1–4    | HTTP  |
+| 0 | DHCP |
+| 1-4 | HTTP |
 
 ## How to Use
 
-1. Define `EXAMPLE_HTTP` in `main.h`:
+1. Define `EXAMPLE_HTTP_SERVER` in `Core/Inc/main.h`:
 
 ```c
-/* USER CODE BEGIN Private defines */
-#define EXAMPLE_HTTP
-/* USER CODE END Private defines */
+#define EXAMPLE_HTTP_SERVER
 ```
 
 2. Select network mode in `app_main.c`:
@@ -37,31 +34,20 @@ Supports both **DHCP** and **static IP**.
 //#define NET_MODE    NETINFO_STATIC
 ```
 
-3. Add the httpServer library to the build:
-   - Source Location: `Libraries/ioLibrary_Driver/Internet/httpServer`
-   - Include Path: `../Libraries/ioLibrary_Driver/Internet/httpServer`
+3. Build, flash, and open a serial terminal at 115200 bps.
 
-4. When using DHCP, add the timer tick to `SysTick_Handler()` in `stm32f4xx_it.c`:
+4. Open a web browser and navigate to:
 
-```c
-void SysTick_Handler(void)
-{
-    HAL_IncTick();
-
-    extern void app_timer_tick(void);
-    app_timer_tick();
-}
+```text
+http://<board IP>/
 ```
 
-5. Build, flash, and open a serial terminal (115200 bps).
-
-6. Open a web browser and navigate to `http://<board IP>/`.
+`Core/Src/stm32f4xx_it.c` already calls `app_timer_tick()` from
+`SysTick_Handler()`, which drives DHCP and HTTP server timers.
 
 ## Expected Output
 
-### Serial Terminal
-
-```
+```text
 === HTTP Server Example ===
 
 QSPI Mode: QUAD
@@ -77,17 +63,11 @@ QSPI DMA threshold: 16 bytes
  HTTP server running on port 80
 ```
 
-### Web Browser
-
-> **Hello from STM32F412 + W6300 SoM!**
->
-> HTTP Server example is running.
-
 ## Configuration
 
 The following can be modified:
 
-- `NET_MODE` in `app_main.c` — `NETINFO_DHCP` or `NETINFO_STATIC`
-- `g_net_info` in `app_main.c` — MAC, static IP, gateway, subnet
-- `index_page` in `web_page.h` — HTML content of the served page
-- `HTTP_SOCKET_MAX_NUM` in `app_main.c` — Number of concurrent HTTP sockets (default: 4)
+- `NET_MODE` in `app_main.c` - `NETINFO_DHCP` or `NETINFO_STATIC`
+- `g_net_info` in `app_main.c` - MAC, static IP, gateway, subnet
+- `index_page` in `web_page.h` - HTML content of the served page
+- `HTTP_SOCKET_MAX_NUM` in `app_main.c` - Number of concurrent HTTP sockets

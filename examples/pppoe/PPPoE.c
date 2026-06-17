@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include "main.h"
 #include "PPPoE.h"
 #include "wizchip_conf.h"
 
@@ -72,13 +73,13 @@ void set_pppinfo(uint8_t *nas_mac, uint8_t *ppp_ip, uint16_t nas_sessionid) {
     getSHAR(str);
     printf("Read PHAR register : %.2x:%.2x:%.2x:%.2x:%.2x:%.2x\r\n", str[0], str[1], str[2], str[3], str[4], str[5]);
     getSIPR(str);
-    printf("Read SIP register : %. %d.%d.%d.%d\r\n", str[0], str[1], str[2], str[3]);
+    printf("Read SIP register : %d.%d.%d.%d\r\n", str[0], str[1], str[2], str[3]);
     // psid = getPSID();
     psid = getPSIDR();
     printf("Read PSID register : %x\r\n", psid);
 #endif
     // open socket in pppoe mode
-    // why not close macraw socket and open??
+    // Reopen MACRAW socket if needed.
     IINCHIP_WRITE(PTIMER, 200); // 5sec timeout
 #ifdef __DEF_PPP_DBG1__
     printf("set_pppinfo() End...\r\n");
@@ -120,7 +121,7 @@ void set_pppinfo(uint8_t *nas_mac, uint8_t *ppp_ip, uint16_t nas_sessionid) {
     getSHAR(str);
     printf("Read PHAR register : %.2x:%.2x:%.2x:%.2x:%.2x:%.2x\r\n", str[0], str[1], str[2], str[3], str[4], str[5]);
     getSIPR(str);
-    printf("Read SIP register : %. %d.%d.%d.%d\r\n", str[0], str[1], str[2], str[3]);
+    printf("Read SIP register : %d.%d.%d.%d\r\n", str[0], str[1], str[2], str[3]);
 #if (_WIZCHIP_ == W6100 || _WIZCHIP_ == W6300)
     psid = getPSIDR();
 #else
@@ -129,7 +130,7 @@ void set_pppinfo(uint8_t *nas_mac, uint8_t *ppp_ip, uint16_t nas_sessionid) {
     printf("Read PSID register : %x\r\n", psid);
 #endif
     // open socket in pppoe mode
-    // why not close macraw socket and open??
+    // Reopen MACRAW socket if needed.
 #if (_WIZCHIP_ == W6100 || _WIZCHIP_ == W6300)
     WIZCHIP_WRITE(_PTMR_, 200); // 5sec timeout
 #else
@@ -764,7 +765,7 @@ void do_discovery(void) {
 
     // PPPoE Frame
     for (i = 0; i < 6; i++) {
-        PPPMSG_req.dst_mac[i] = 0xFF;	// �㲥MAC��ַ
+        PPPMSG_req.dst_mac[i] = 0xFF;	// Broadcast MAC address
         PPPMSG_req.src_mac[i] = mac[i]; // Source MAC address
         //-- Opt. Device MAC Address
         PPPPROTO.opt[10 + i] = mac[i];
@@ -943,7 +944,7 @@ uint8_t do_lcp_terminate(void) {
             // if(pppoe_tick_1s > 3)
             //{
 
-            sleep_ms(10);
+            HAL_Delay(10);
             if (pppoe_retry_count > PPP_MAX_RETRY_COUNT) {
                 printf("Termination Failed\r\n");
                 return 0; // termination fail

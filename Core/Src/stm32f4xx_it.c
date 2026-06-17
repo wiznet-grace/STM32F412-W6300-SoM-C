@@ -22,7 +22,7 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "wizchip_dhcp.h"
+#include "app_main.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -185,16 +185,11 @@ void PendSV_Handler(void)
 void SysTick_Handler(void)
 {
   /* USER CODE BEGIN SysTick_IRQn 0 */
-	/* Call DHCP time handler at 1 Hz */
-	  static uint32_t dhcp_tick = 0;
-	  if (++dhcp_tick >= 1000) {
-	      dhcp_tick = 0;
-	      wizchip_dhcp_time_tick();
-	  }
+
   /* USER CODE END SysTick_IRQn 0 */
   HAL_IncTick();
   /* USER CODE BEGIN SysTick_IRQn 1 */
-
+  app_timer_tick();
   /* USER CODE END SysTick_IRQn 1 */
 }
 

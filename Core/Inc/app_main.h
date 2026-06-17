@@ -12,5 +12,6 @@
 #define APP_MAIN_H_
 
 void app_main(void);
+void app_timer_tick(void);
 
 #endif /* APP_MAIN_H_ */
