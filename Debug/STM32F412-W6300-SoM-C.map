@@ -256,7 +256,7 @@ Discarded input sections
                 0x00000000       0x64 ./Core/Src/stm32f4xx_hal_msp.o
  .text.HAL_UART_MspDeInit
                 0x00000000       0x3c ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x00000000      0xab4 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x00000000      0xaba ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x00000000      0x29b ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x00000000       0x2e ./Core/Src/stm32f4xx_hal_msp.o
  .debug_macro   0x00000000       0x28 ./Core/Src/stm32f4xx_hal_msp.o
@@ -343,7 +343,7 @@ Discarded input sections
  .text          0x00000000        0x0 ./Core/Src/stm32f4xx_it.o
  .data          0x00000000        0x0 ./Core/Src/stm32f4xx_it.o
  .bss           0x00000000        0x0 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x00000000      0xab4 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x00000000      0xaba ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000      0x29b ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000       0x2e ./Core/Src/stm32f4xx_it.o
  .debug_macro   0x00000000       0x28 ./Core/Src/stm32f4xx_it.o
@@ -446,7 +446,7 @@ Discarded input sections
  .text._link    0x00000000       0x20 ./Core/Src/syscalls.o
  .text._fork    0x00000000       0x16 ./Core/Src/syscalls.o
  .text._execve  0x00000000       0x22 ./Core/Src/syscalls.o
- .debug_macro   0x00000000      0xab4 ./Core/Src/syscalls.o
+ .debug_macro   0x00000000      0xaba ./Core/Src/syscalls.o
  .debug_macro   0x00000000       0x22 ./Core/Src/syscalls.o
  .debug_macro   0x00000000       0x2a ./Core/Src/syscalls.o
  .debug_macro   0x00000000       0x43 ./Core/Src/syscalls.o
@@ -493,7 +493,7 @@ Discarded input sections
  .text          0x00000000        0x0 ./Core/Src/sysmem.o
  .data          0x00000000        0x0 ./Core/Src/sysmem.o
  .bss           0x00000000        0x0 ./Core/Src/sysmem.o
- .debug_macro   0x00000000      0xab4 ./Core/Src/sysmem.o
+ .debug_macro   0x00000000      0xaba ./Core/Src/sysmem.o
  .debug_macro   0x00000000       0x10 ./Core/Src/sysmem.o
  .debug_macro   0x00000000       0x22 ./Core/Src/sysmem.o
  .debug_macro   0x00000000       0x5b ./Core/Src/sysmem.o
@@ -557,7 +557,7 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Core/Src/system_stm32f4xx.o
  .text.SystemCoreClockUpdate
                 0x00000000       0xec ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x00000000      0xab4 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x00000000      0xaba ./Core/Src/system_stm32f4xx.o
  .debug_macro   0x00000000       0x2e ./Core/Src/system_stm32f4xx.o
  .debug_macro   0x00000000       0x28 ./Core/Src/system_stm32f4xx.o
  .debug_macro   0x00000000       0x22 ./Core/Src/system_stm32f4xx.o
@@ -683,7 +683,7 @@ Discarded input sections
                 0x00000000       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .text.HAL_GetUIDw2
                 0x00000000       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -812,7 +812,7 @@ Discarded input sections
                 0x00000000        0xc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .text.HAL_SYSTICK_Callback
                 0x00000000        0xe ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
@@ -903,7 +903,7 @@ Discarded input sections
                 0x00000000       0xd4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .text.HAL_DMA_GetState
                 0x00000000       0x1c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
@@ -997,7 +997,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x27 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
@@ -1036,7 +1036,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_line    0x00000000     0x13b0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
- .debug_str     0x00000000    0xb6708 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
+ .debug_str     0x00000000    0xb672b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .debug_frame   0x00000000       0xac ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o
  .ARM.attributes
@@ -1107,7 +1107,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x46 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x00000000      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
@@ -1146,7 +1146,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_line    0x00000000      0xa2f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
- .debug_str     0x00000000    0xb65ab ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
+ .debug_str     0x00000000    0xb65ce ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .debug_frame   0x00000000      0x174 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o
  .ARM.attributes
@@ -1234,7 +1234,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x78 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x00000000      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
@@ -1273,7 +1273,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_line    0x00000000      0xae1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
- .debug_str     0x00000000    0xb6724 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
+ .debug_str     0x00000000    0xb6747 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .debug_frame   0x00000000      0x274 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o
  .ARM.attributes
@@ -1370,7 +1370,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x96 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
@@ -1409,7 +1409,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_line    0x00000000      0xbd0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
- .debug_str     0x00000000    0xb6847 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
+ .debug_str     0x00000000    0xb686a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .debug_frame   0x00000000      0x334 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o
  .ARM.attributes
@@ -1463,7 +1463,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x25 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x00000000      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
@@ -1502,7 +1502,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_line    0x00000000      0x778 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
- .debug_str     0x00000000    0xb6580 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
+ .debug_str     0x00000000    0xb65a3 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .debug_frame   0x00000000       0xb0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o
  .ARM.attributes
@@ -1560,7 +1560,7 @@ Discarded input sections
                 0x00000000       0x30 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .text.HAL_GPIO_EXTI_Callback
                 0x00000000       0x16 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -1680,7 +1680,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x74 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x00000000      0x1dc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
@@ -1719,7 +1719,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_line    0x00000000      0x935 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
- .debug_str     0x00000000    0xb678e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
+ .debug_str     0x00000000    0xb67b1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .debug_frame   0x00000000      0x264 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o
  .ARM.attributes
@@ -1792,7 +1792,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x00000000      0x1dc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
@@ -1831,7 +1831,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_line    0x00000000      0x8d7 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
- .debug_str     0x00000000    0xb6709 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
+ .debug_str     0x00000000    0xb672c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .debug_frame   0x00000000      0x15c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o
  .ARM.attributes
@@ -1911,7 +1911,7 @@ Discarded input sections
                 0x00000000       0x68 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
  .text.QSPI_WaitFlagStateUntilTimeout_CPUCycle
                 0x00000000       0x78 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
@@ -2008,7 +2008,7 @@ Discarded input sections
                 0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .text.HAL_RCC_CSSCallback
                 0x00000000        0xe ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
@@ -2103,7 +2103,7 @@ Discarded input sections
                 0x00000000      0x198 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .text.HAL_RCC_GetOscConfig
                 0x00000000      0x138 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
@@ -2187,7 +2187,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_macro   0x00000000      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
@@ -2226,7 +2226,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .debug_line    0x00000000      0x72b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_str     0x00000000    0xb636f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_str     0x00000000    0xb6392 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
  .ARM.attributes
                 0x00000000       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
@@ -2276,7 +2276,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x00000000      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
@@ -2315,7 +2315,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x00000000      0x126 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_line    0x00000000      0x72e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_str     0x00000000    0xb6372 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_str     0x00000000    0xb6395 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .comment       0x00000000       0x44 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .ARM.attributes
                 0x00000000       0x34 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
@@ -2472,7 +2472,7 @@ Discarded input sections
                 0x00000000       0x30 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
  .text.UART_Receive_IT
                 0x00000000      0x17c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
- .debug_macro   0x00000000      0xab4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_macro   0x00000000      0xaba ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
  .debug_macro   0x00000000      0x29b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
  .debug_macro   0x00000000       0x2e ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
  .debug_macro   0x00000000       0x28 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
@@ -2560,7 +2560,7 @@ Discarded input sections
                 0x00000000      0x1b0 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .data.any_port.0
                 0x00000000        0x2 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
@@ -2585,7 +2585,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
@@ -2637,7 +2637,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1b ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000      0x18a ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
@@ -2665,7 +2665,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000      0x146 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Application/multicast/multicast.o
@@ -2695,14 +2695,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x99 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W5100/w5100.o
@@ -2730,14 +2730,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x99 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W5100S/w5100s.o
@@ -2765,14 +2765,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x99 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W5200/w5200.o
@@ -2800,14 +2800,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x8f ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W5300/w5300.o
@@ -2835,14 +2835,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0xb1 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W5500/w5500.o
@@ -2870,14 +2870,14 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0xb1 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W6100/w6100.o
@@ -2902,14 +2902,14 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .text.wiz_delay_ms
                 0x00000000       0x54 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
@@ -2934,7 +2934,7 @@ Discarded input sections
                 0x00000000      0x218 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
  .text.peeksockmsg
                 0x00000000       0xd4 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/socket.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/socket.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
@@ -2996,7 +2996,7 @@ Discarded input sections
                 0x00000000       0x5c ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .text.wizchip_getprefix
                 0x00000000       0xf0 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000      0x189 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
@@ -3004,7 +3004,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
@@ -3026,14 +3026,14 @@ Discarded input sections
  .bss           0x00000000        0x0 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .text.DHCP_stop
                 0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
@@ -3110,7 +3110,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x54 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000      0x274 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
@@ -3137,7 +3137,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/DNS/dns.o
@@ -3225,7 +3225,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xb1 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_macro   0x00000000      0x1a1 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
@@ -3258,7 +3258,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_line    0x00000000      0xd81 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_str     0x00000000     0x81af ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_str     0x00000000     0x81d2 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .debug_frame   0x00000000      0x2d8 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
  .ARM.attributes
@@ -3309,14 +3309,14 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4f ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0xae ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0x8e ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0x51 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
@@ -3380,7 +3380,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x34 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
@@ -3411,7 +3411,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_line    0x00000000      0x839 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_str     0x00000000     0x7318 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_str     0x00000000     0x733b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .debug_frame   0x00000000       0xec ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
  .ARM.attributes
@@ -3463,7 +3463,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x21 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_macro   0x00000000      0x192 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
@@ -3494,7 +3494,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_line    0x00000000      0x7b5 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
- .debug_str     0x00000000     0x72dc ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
+ .debug_str     0x00000000     0x72ff ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .debug_frame   0x00000000       0x7c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectServer.o
  .ARM.attributes
@@ -3543,7 +3543,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_macro   0x00000000      0x192 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
@@ -3574,7 +3574,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_line    0x00000000      0x6ef ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_str     0x00000000     0x7151 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_str     0x00000000     0x7174 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .debug_frame   0x00000000       0x58 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
  .ARM.attributes
@@ -3642,7 +3642,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
@@ -3673,7 +3673,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_line    0x00000000      0x89a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
- .debug_str     0x00000000     0x73b8 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
+ .debug_str     0x00000000     0x73db ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .debug_frame   0x00000000      0x1ac ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTFormat.o
  .ARM.attributes
@@ -3753,7 +3753,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x94 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_macro   0x00000000      0x192 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
@@ -3784,7 +3784,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_line    0x00000000      0xa6f ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_str     0x00000000     0x7218 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_str     0x00000000     0x723b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .debug_frame   0x00000000      0x2b8 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
  .ARM.attributes
@@ -3841,7 +3841,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x33 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
@@ -3872,7 +3872,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_line    0x00000000      0x72c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_str     0x00000000     0x71f5 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_str     0x00000000     0x7218 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .debug_frame   0x00000000       0xec ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
  .ARM.attributes
@@ -3923,7 +3923,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x21 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
@@ -3954,7 +3954,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_line    0x00000000      0x757 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_str     0x00000000     0x71f0 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_str     0x00000000     0x7213 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_frame   0x00000000       0x7c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .ARM.attributes
@@ -4003,7 +4003,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1b ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
@@ -4034,7 +4034,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_line    0x00000000      0x708 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
- .debug_str     0x00000000     0x71b2 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
+ .debug_str     0x00000000     0x71d5 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .debug_frame   0x00000000       0x58 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeServer.o
  .ARM.attributes
@@ -4085,7 +4085,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
@@ -4116,7 +4116,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_line    0x00000000      0x6f8 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
- .debug_str     0x00000000     0x71ad ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
+ .debug_str     0x00000000     0x71d0 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .debug_frame   0x00000000       0x7c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeClient.o
  .ARM.attributes
@@ -4165,7 +4165,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x1a ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_macro   0x00000000      0x18c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_macro   0x00000000       0x1c ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_macro   0x00000000       0x16 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
@@ -4196,7 +4196,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_macro   0x00000000       0x20 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_line    0x00000000      0x6c9 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
- .debug_str     0x00000000     0x719e ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
+ .debug_str     0x00000000     0x71c1 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .debug_frame   0x00000000       0x58 ./Libraries/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTUnsubscribeServer.o
  .ARM.attributes
@@ -4329,7 +4329,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xae ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000      0x27a ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
@@ -4374,7 +4374,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp.o
@@ -4439,7 +4439,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x19 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_macro   0x00000000      0x18b ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
@@ -4473,7 +4473,7 @@ Discarded input sections
  .debug_macro   0x00000000       0xf4 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_macro   0x00000000       0x10 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_line    0x00000000      0x601 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
- .debug_str     0x00000000     0x7ed9 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
+ .debug_str     0x00000000     0x7efc ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .debug_frame   0x00000000       0x58 ./Libraries/ioLibrary_Driver/Internet/SNMP/snmp_custom.o
  .ARM.attributes
@@ -4541,7 +4541,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x30 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000      0x17a ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
@@ -4566,7 +4566,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/SNTP/sntp.o
@@ -4626,7 +4626,7 @@ Discarded input sections
                 0x00000000       0x10 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .bss.addr_str.0
                 0x00000000       0x10 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
@@ -4806,7 +4806,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xd4 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000      0x1b7 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
@@ -4836,7 +4836,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0xc4 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
- .debug_macro   0x00000000       0xad ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
+ .debug_macro   0x00000000       0xa6 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/TFTP/tftp.o
@@ -4910,7 +4910,7 @@ Discarded input sections
  .text.mid      0x00000000       0x56 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .text.replacetochar
                 0x00000000       0x4e ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
@@ -4940,7 +4940,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
@@ -5060,7 +5060,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x85 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000      0x209 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
@@ -5093,7 +5093,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000      0x1df ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
- .debug_macro   0x00000000       0xa7 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
+ .debug_macro   0x00000000       0xa0 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000      0xd4f ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0x40 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
  .debug_macro   0x00000000       0xb3 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpServer.o
@@ -5164,7 +5164,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x25 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_macro   0x00000000      0x1ba ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
- .debug_macro   0x00000000      0xab4 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
+ .debug_macro   0x00000000      0xaba ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_macro   0x00000000       0x22 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_macro   0x00000000       0x5b ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_macro   0x00000000       0x2a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
@@ -5200,7 +5200,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_macro   0x00000000      0x16d ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_line    0x00000000      0x6a0 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
- .debug_str     0x00000000     0x84a3 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
+ .debug_str     0x00000000     0x84c6 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .comment       0x00000000       0x44 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .debug_frame   0x00000000       0xa8 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpUtil.o
  .ARM.attributes
@@ -5252,7 +5252,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/dhcp_dns/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/dhcp_dns/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/dhcp_dns/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/dhcp_dns/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/dhcp_dns/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/dhcp_dns/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/dhcp_dns/app_main.o
@@ -5292,7 +5292,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/dhcp_dns/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/dhcp_dns/app_main.o
  .debug_line    0x00000000      0x71d ./examples/dhcp_dns/app_main.o
- .debug_str     0x00000000    0xb63d9 ./examples/dhcp_dns/app_main.o
+ .debug_str     0x00000000    0xb63fc ./examples/dhcp_dns/app_main.o
  .comment       0x00000000       0x44 ./examples/dhcp_dns/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/dhcp_dns/app_main.o
@@ -5343,7 +5343,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/http_server/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/http_server/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/http_server/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/http_server/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/http_server/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/http_server/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/http_server/app_main.o
@@ -5383,7 +5383,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/http_server/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/http_server/app_main.o
  .debug_line    0x00000000      0x720 ./examples/http_server/app_main.o
- .debug_str     0x00000000    0xb63dc ./examples/http_server/app_main.o
+ .debug_str     0x00000000    0xb63ff ./examples/http_server/app_main.o
  .comment       0x00000000       0x44 ./examples/http_server/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/http_server/app_main.o
@@ -5434,7 +5434,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/loopback/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/loopback/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/loopback/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/loopback/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/loopback/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/loopback/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/loopback/app_main.o
@@ -5474,7 +5474,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/loopback/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/loopback/app_main.o
  .debug_line    0x00000000      0x71d ./examples/loopback/app_main.o
- .debug_str     0x00000000    0xb63d9 ./examples/loopback/app_main.o
+ .debug_str     0x00000000    0xb63fc ./examples/loopback/app_main.o
  .comment       0x00000000       0x44 ./examples/loopback/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/loopback/app_main.o
@@ -5525,7 +5525,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/mqtt/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/mqtt/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/mqtt/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/mqtt/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/mqtt/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/mqtt/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/mqtt/app_main.o
@@ -5565,7 +5565,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/mqtt/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/mqtt/app_main.o
  .debug_line    0x00000000      0x719 ./examples/mqtt/app_main.o
- .debug_str     0x00000000    0xb63d5 ./examples/mqtt/app_main.o
+ .debug_str     0x00000000    0xb63f8 ./examples/mqtt/app_main.o
  .comment       0x00000000       0x44 ./examples/mqtt/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/mqtt/app_main.o
@@ -5616,7 +5616,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/netbios/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/netbios/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/netbios/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/netbios/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/netbios/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/netbios/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/netbios/app_main.o
@@ -5656,7 +5656,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/netbios/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/netbios/app_main.o
  .debug_line    0x00000000      0x71c ./examples/netbios/app_main.o
- .debug_str     0x00000000    0xb63d8 ./examples/netbios/app_main.o
+ .debug_str     0x00000000    0xb63fb ./examples/netbios/app_main.o
  .comment       0x00000000       0x44 ./examples/netbios/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/netbios/app_main.o
@@ -5719,7 +5719,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x22 ./examples/netbios/netbios.o
  .debug_macro   0x00000000      0x26a ./examples/netbios/netbios.o
- .debug_macro   0x00000000      0xab4 ./examples/netbios/netbios.o
+ .debug_macro   0x00000000      0xaba ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0x22 ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0x5b ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0x2a ./examples/netbios/netbios.o
@@ -5751,7 +5751,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0x6a ./examples/netbios/netbios.o
  .debug_macro   0x00000000      0x1df ./examples/netbios/netbios.o
- .debug_macro   0x00000000       0xa7 ./examples/netbios/netbios.o
+ .debug_macro   0x00000000       0xa0 ./examples/netbios/netbios.o
  .debug_macro   0x00000000      0xd4f ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0x40 ./examples/netbios/netbios.o
  .debug_macro   0x00000000       0xb3 ./examples/netbios/netbios.o
@@ -5810,7 +5810,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/network_install/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/network_install/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/network_install/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/network_install/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/network_install/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/network_install/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/network_install/app_main.o
@@ -5850,7 +5850,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/network_install/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/network_install/app_main.o
  .debug_line    0x00000000      0x724 ./examples/network_install/app_main.o
- .debug_str     0x00000000    0xb63e0 ./examples/network_install/app_main.o
+ .debug_str     0x00000000    0xb6403 ./examples/network_install/app_main.o
  .comment       0x00000000       0x44 ./examples/network_install/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/network_install/app_main.o
@@ -5945,7 +5945,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x53 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000      0x1c2 ./examples/pppoe/PPPoE.o
- .debug_macro   0x00000000      0xab4 ./examples/pppoe/PPPoE.o
+ .debug_macro   0x00000000      0xaba ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x22 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x8e ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x51 ./examples/pppoe/PPPoE.o
@@ -5975,7 +5975,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x35 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x20 ./examples/pppoe/PPPoE.o
- .debug_macro   0x00000000       0xad ./examples/pppoe/PPPoE.o
+ .debug_macro   0x00000000       0xa6 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000      0xd4f ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0x40 ./examples/pppoe/PPPoE.o
  .debug_macro   0x00000000       0xb3 ./examples/pppoe/PPPoE.o
@@ -6034,7 +6034,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/pppoe/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/pppoe/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/pppoe/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/pppoe/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/pppoe/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/pppoe/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/pppoe/app_main.o
@@ -6074,7 +6074,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/pppoe/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/pppoe/app_main.o
  .debug_line    0x00000000      0x71a ./examples/pppoe/app_main.o
- .debug_str     0x00000000    0xb63d6 ./examples/pppoe/app_main.o
+ .debug_str     0x00000000    0xb63f9 ./examples/pppoe/app_main.o
  .comment       0x00000000       0x44 ./examples/pppoe/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/pppoe/app_main.o
@@ -6129,7 +6129,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4c ./examples/pppoe/md5.o
  .debug_macro   0x00000000      0x1b8 ./examples/pppoe/md5.o
- .debug_macro   0x00000000      0xab4 ./examples/pppoe/md5.o
+ .debug_macro   0x00000000      0xaba ./examples/pppoe/md5.o
  .debug_macro   0x00000000       0x22 ./examples/pppoe/md5.o
  .debug_macro   0x00000000       0x5b ./examples/pppoe/md5.o
  .debug_macro   0x00000000       0x2a ./examples/pppoe/md5.o
@@ -6154,7 +6154,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./examples/pppoe/md5.o
  .debug_macro   0x00000000      0x1df ./examples/pppoe/md5.o
  .debug_line    0x00000000      0x8e2 ./examples/pppoe/md5.o
- .debug_str     0x00000000     0x73ff ./examples/pppoe/md5.o
+ .debug_str     0x00000000     0x7422 ./examples/pppoe/md5.o
  .comment       0x00000000       0x44 ./examples/pppoe/md5.o
  .debug_frame   0x00000000      0x198 ./examples/pppoe/md5.o
  .ARM.attributes
@@ -6206,7 +6206,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/sntp/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/sntp/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/sntp/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/sntp/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/sntp/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/sntp/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/sntp/app_main.o
@@ -6246,7 +6246,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/sntp/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/sntp/app_main.o
  .debug_line    0x00000000      0x719 ./examples/sntp/app_main.o
- .debug_str     0x00000000    0xb63d5 ./examples/sntp/app_main.o
+ .debug_str     0x00000000    0xb63f8 ./examples/sntp/app_main.o
  .comment       0x00000000       0x44 ./examples/sntp/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/sntp/app_main.o
@@ -6297,7 +6297,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/tcp_server_multi_socket/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/tcp_server_multi_socket/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/tcp_server_multi_socket/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/tcp_server_multi_socket/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/tcp_server_multi_socket/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/tcp_server_multi_socket/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/tcp_server_multi_socket/app_main.o
@@ -6337,7 +6337,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/tcp_server_multi_socket/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/tcp_server_multi_socket/app_main.o
  .debug_line    0x00000000      0x72c ./examples/tcp_server_multi_socket/app_main.o
- .debug_str     0x00000000    0xb63e8 ./examples/tcp_server_multi_socket/app_main.o
+ .debug_str     0x00000000    0xb640b ./examples/tcp_server_multi_socket/app_main.o
  .comment       0x00000000       0x44 ./examples/tcp_server_multi_socket/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/tcp_server_multi_socket/app_main.o
@@ -6388,7 +6388,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/tftp/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/tftp/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/tftp/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/tftp/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/tftp/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/tftp/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/tftp/app_main.o
@@ -6428,7 +6428,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/tftp/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/tftp/app_main.o
  .debug_line    0x00000000      0x719 ./examples/tftp/app_main.o
- .debug_str     0x00000000    0xb63d5 ./examples/tftp/app_main.o
+ .debug_str     0x00000000    0xb63f8 ./examples/tftp/app_main.o
  .comment       0x00000000       0x44 ./examples/tftp/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/tftp/app_main.o
@@ -6479,7 +6479,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/udp/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/udp/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/udp/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/udp/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/udp/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/udp/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/udp/app_main.o
@@ -6519,7 +6519,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/udp/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/udp/app_main.o
  .debug_line    0x00000000      0x718 ./examples/udp/app_main.o
- .debug_str     0x00000000    0xb63d4 ./examples/udp/app_main.o
+ .debug_str     0x00000000    0xb63f7 ./examples/udp/app_main.o
  .comment       0x00000000       0x44 ./examples/udp/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/udp/app_main.o
@@ -6570,7 +6570,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./examples/udp_multicast/app_main.o
  .debug_macro   0x00000000      0x1d3 ./examples/udp_multicast/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/udp_multicast/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/udp_multicast/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/udp_multicast/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/udp_multicast/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/udp_multicast/app_main.o
@@ -6610,7 +6610,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x126 ./examples/udp_multicast/app_main.o
  .debug_macro   0x00000000       0x22 ./examples/udp_multicast/app_main.o
  .debug_line    0x00000000      0x722 ./examples/udp_multicast/app_main.o
- .debug_str     0x00000000    0xb63de ./examples/udp_multicast/app_main.o
+ .debug_str     0x00000000    0xb6401 ./examples/udp_multicast/app_main.o
  .comment       0x00000000       0x44 ./examples/udp_multicast/app_main.o
  .ARM.attributes
                 0x00000000       0x34 ./examples/udp_multicast/app_main.o
@@ -6660,7 +6660,7 @@ Discarded input sections
                 0x00000000       0x4e ./examples/upnp/MakeXML.o
  .rodata._NewLeaseDuration
                 0x00000000       0x14 ./examples/upnp/MakeXML.o
- .debug_macro   0x00000000      0xab4 ./examples/upnp/MakeXML.o
+ .debug_macro   0x00000000      0xaba ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0x22 ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0x5b ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0x2a ./examples/upnp/MakeXML.o
@@ -6690,10 +6690,41 @@ Discarded input sections
  .debug_macro   0x00000000      0x103 ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0x6a ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000      0x1df ./examples/upnp/MakeXML.o
- .debug_macro   0x00000000       0xa7 ./examples/upnp/MakeXML.o
+ .debug_macro   0x00000000       0xa0 ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000      0xd4f ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0x40 ./examples/upnp/MakeXML.o
  .debug_macro   0x00000000       0xb3 ./examples/upnp/MakeXML.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
+ .group         0x00000000        0xc ./examples/upnp/UPnP.o
  .group         0x00000000        0xc ./examples/upnp/UPnP.o
  .group         0x00000000        0xc ./examples/upnp/UPnP.o
  .group         0x00000000        0xc ./examples/upnp/UPnP.o
@@ -6752,7 +6783,7 @@ Discarded input sections
                 0x00000000       0x58 ./examples/upnp/UPnP.o
  .text.data_process_count_handle
                 0x00000000       0x1c ./examples/upnp/UPnP.o
- .debug_macro   0x00000000      0xab4 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0xaba ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x22 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x5b ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x2a ./examples/upnp/UPnP.o
@@ -6781,10 +6812,40 @@ Discarded input sections
  .debug_macro   0x00000000       0x1c ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x16 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000      0x146 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x29b ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x2e ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x28 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000      0x103 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x6a ./examples/upnp/UPnP.o
  .debug_macro   0x00000000      0x1df ./examples/upnp/UPnP.o
- .debug_macro   0x00000000       0xa7 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x1c ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x22 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0xfb ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000     0x1011 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x11f ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000    0x14798 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x6d ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000     0x3693 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x980 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x9e9 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x115 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x192 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0xa5 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x16d ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x287 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x5f ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x236 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x132 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x29c ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x2e ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x127 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x91 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x89 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x2aa ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x2d4 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000      0x126 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0x22 ./examples/upnp/UPnP.o
+ .debug_macro   0x00000000       0xa6 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000      0xd4f ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0x40 ./examples/upnp/UPnP.o
  .debug_macro   0x00000000       0xb3 ./examples/upnp/UPnP.o
@@ -6875,7 +6936,7 @@ Discarded input sections
                 0x00000000        0x2 ./examples/upnp/app_main.o
  .text.app_timer_tick
                 0x00000000       0x4c ./examples/upnp/app_main.o
- .debug_macro   0x00000000      0xab4 ./examples/upnp/app_main.o
+ .debug_macro   0x00000000      0xaba ./examples/upnp/app_main.o
  .debug_macro   0x00000000      0x29b ./examples/upnp/app_main.o
  .debug_macro   0x00000000       0x2e ./examples/upnp/app_main.o
  .debug_macro   0x00000000       0x28 ./examples/upnp/app_main.o
@@ -6933,7 +6994,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./examples/upnp/app_main.o
  .debug_macro   0x00000000       0x16 ./examples/upnp/app_main.o
  .debug_macro   0x00000000      0x146 ./examples/upnp/app_main.o
- .debug_macro   0x00000000       0xad ./examples/upnp/app_main.o
+ .debug_macro   0x00000000       0xa6 ./examples/upnp/app_main.o
  .debug_macro   0x00000000      0xd4f ./examples/upnp/app_main.o
  .debug_macro   0x00000000       0x40 ./examples/upnp/app_main.o
  .debug_macro   0x00000000       0xb3 ./examples/upnp/app_main.o
@@ -7033,7 +7094,7 @@ Discarded input sections
  .text.STRTOK   0x00000000       0x80 ./examples/upnp/hyperterminal.o
  .bss.pCurrent.11
                 0x00000000        0x4 ./examples/upnp/hyperterminal.o
- .debug_macro   0x00000000      0xab4 ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00000000      0xaba ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x22 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x5b ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x2a ./examples/upnp/hyperterminal.o
@@ -7076,6 +7137,7 @@ Discarded input sections
  .debug_macro   0x00000000    0x14798 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x6d ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000     0x3693 ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00000000       0x56 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000      0x980 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000      0x9e9 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000      0x115 ./examples/upnp/hyperterminal.o
@@ -7095,7 +7157,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000      0x126 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x22 ./examples/upnp/hyperterminal.o
- .debug_macro   0x00000000       0xad ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00000000       0xa6 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000      0xd4f ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0x40 ./examples/upnp/hyperterminal.o
  .debug_macro   0x00000000       0xb3 ./examples/upnp/hyperterminal.o
@@ -7186,7 +7248,7 @@ Discarded input sections
                 0x00000000       0x54 ./port/wizchip_dhcp.o
  .text.wizchip_dhcp_run
                 0x00000000       0x8c ./port/wizchip_dhcp.o
- .debug_macro   0x00000000      0xab4 ./port/wizchip_dhcp.o
+ .debug_macro   0x00000000      0xaba ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0x22 ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0x5b ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0x2a ./port/wizchip_dhcp.o
@@ -7244,7 +7306,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./port/wizchip_dhcp.o
  .debug_macro   0x00000000      0x126 ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0x22 ./port/wizchip_dhcp.o
- .debug_macro   0x00000000       0xad ./port/wizchip_dhcp.o
+ .debug_macro   0x00000000       0xa6 ./port/wizchip_dhcp.o
  .debug_macro   0x00000000      0xd4f ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0x40 ./port/wizchip_dhcp.o
  .debug_macro   0x00000000       0xb3 ./port/wizchip_dhcp.o
@@ -7315,7 +7377,7 @@ Discarded input sections
  .text          0x00000000        0x0 ./port/wizchip_qspi.o
  .data          0x00000000        0x0 ./port/wizchip_qspi.o
  .bss           0x00000000        0x0 ./port/wizchip_qspi.o
- .debug_macro   0x00000000      0xab4 ./port/wizchip_qspi.o
+ .debug_macro   0x00000000      0xaba ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0x22 ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0x5b ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0x2a ./port/wizchip_qspi.o
@@ -7373,7 +7435,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2d4 ./port/wizchip_qspi.o
  .debug_macro   0x00000000      0x126 ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0x22 ./port/wizchip_qspi.o
- .debug_macro   0x00000000       0xad ./port/wizchip_qspi.o
+ .debug_macro   0x00000000       0xa6 ./port/wizchip_qspi.o
  .debug_macro   0x00000000      0xd4f ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0x40 ./port/wizchip_qspi.o
  .debug_macro   0x00000000       0xb3 ./port/wizchip_qspi.o
@@ -9406,7 +9468,7 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x12a40
+.debug_info     0x00000000    0x129d4
  .debug_info    0x00000000     0x1161 ./Core/Src/main.o
  .debug_info    0x00001161      0xeef ./Core/Src/stm32f4xx_hal_msp.o
  .debug_info    0x00002050      0x670 ./Core/Src/stm32f4xx_it.o
@@ -9430,13 +9492,13 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_info    0x0000e633      0x3c3 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_info    0x0000e9f6      0x658 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_info    0x0000f04e      0x641 ./examples/upnp/MakeXML.o
- .debug_info    0x0000f68f      0xeb3 ./examples/upnp/UPnP.o
- .debug_info    0x00010542      0x59c ./examples/upnp/app_main.o
- .debug_info    0x00010ade      0xd9f ./examples/upnp/hyperterminal.o
- .debug_info    0x0001187d      0x3d5 ./port/wizchip_dhcp.o
- .debug_info    0x00011c52      0xdee ./port/wizchip_qspi.o
+ .debug_info    0x0000f68f      0xe47 ./examples/upnp/UPnP.o
+ .debug_info    0x000104d6      0x59c ./examples/upnp/app_main.o
+ .debug_info    0x00010a72      0xd9f ./examples/upnp/hyperterminal.o
+ .debug_info    0x00011811      0x3d5 ./port/wizchip_dhcp.o
+ .debug_info    0x00011be6      0xdee ./port/wizchip_qspi.o
 
-.debug_abbrev   0x00000000     0x3983
+.debug_abbrev   0x00000000     0x3949
  .debug_abbrev  0x00000000      0x2bd ./Core/Src/main.o
  .debug_abbrev  0x000002bd      0x20b ./Core/Src/stm32f4xx_hal_msp.o
  .debug_abbrev  0x000004c8      0x19b ./Core/Src/stm32f4xx_it.o
@@ -9460,11 +9522,11 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_abbrev  0x000028e1      0x130 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_abbrev  0x00002a11      0x243 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_abbrev  0x00002c54      0x13a ./examples/upnp/MakeXML.o
- .debug_abbrev  0x00002d8e      0x294 ./examples/upnp/UPnP.o
- .debug_abbrev  0x00003022      0x20d ./examples/upnp/app_main.o
- .debug_abbrev  0x0000322f      0x2b7 ./examples/upnp/hyperterminal.o
- .debug_abbrev  0x000034e6      0x1e0 ./port/wizchip_dhcp.o
- .debug_abbrev  0x000036c6      0x2bd ./port/wizchip_qspi.o
+ .debug_abbrev  0x00002d8e      0x25a ./examples/upnp/UPnP.o
+ .debug_abbrev  0x00002fe8      0x20d ./examples/upnp/app_main.o
+ .debug_abbrev  0x000031f5      0x2b7 ./examples/upnp/hyperterminal.o
+ .debug_abbrev  0x000034ac      0x1e0 ./port/wizchip_dhcp.o
+ .debug_abbrev  0x0000368c      0x2bd ./port/wizchip_qspi.o
 
 .debug_aranges  0x00000000     0x1080
  .debug_aranges
@@ -9583,140 +9645,140 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x00000c32       0x5b ./port/wizchip_qspi.o
 
-.debug_macro    0x00000000    0x22ee7
+.debug_macro    0x00000000    0x23044
  .debug_macro   0x00000000      0x2b5 ./Core/Src/main.o
- .debug_macro   0x000002b5      0xab4 ./Core/Src/main.o
- .debug_macro   0x00000d69      0x29b ./Core/Src/main.o
- .debug_macro   0x00001004       0x2e ./Core/Src/main.o
- .debug_macro   0x00001032       0x28 ./Core/Src/main.o
- .debug_macro   0x0000105a       0x22 ./Core/Src/main.o
- .debug_macro   0x0000107c       0x8e ./Core/Src/main.o
- .debug_macro   0x0000110a       0x51 ./Core/Src/main.o
- .debug_macro   0x0000115b      0x103 ./Core/Src/main.o
- .debug_macro   0x0000125e       0x6a ./Core/Src/main.o
- .debug_macro   0x000012c8      0x1df ./Core/Src/main.o
- .debug_macro   0x000014a7       0x1c ./Core/Src/main.o
- .debug_macro   0x000014c3       0x22 ./Core/Src/main.o
- .debug_macro   0x000014e5       0xfb ./Core/Src/main.o
- .debug_macro   0x000015e0     0x1011 ./Core/Src/main.o
- .debug_macro   0x000025f1      0x11f ./Core/Src/main.o
- .debug_macro   0x00002710    0x14798 ./Core/Src/main.o
- .debug_macro   0x00016ea8       0x6d ./Core/Src/main.o
- .debug_macro   0x00016f15     0x3693 ./Core/Src/main.o
- .debug_macro   0x0001a5a8      0x189 ./Core/Src/main.o
- .debug_macro   0x0001a731       0x5c ./Core/Src/main.o
- .debug_macro   0x0001a78d      0x980 ./Core/Src/main.o
- .debug_macro   0x0001b10d      0x9e9 ./Core/Src/main.o
- .debug_macro   0x0001baf6      0x115 ./Core/Src/main.o
- .debug_macro   0x0001bc0b      0x192 ./Core/Src/main.o
- .debug_macro   0x0001bd9d       0xa5 ./Core/Src/main.o
- .debug_macro   0x0001be42      0x16d ./Core/Src/main.o
- .debug_macro   0x0001bfaf      0x287 ./Core/Src/main.o
- .debug_macro   0x0001c236       0x5f ./Core/Src/main.o
- .debug_macro   0x0001c295      0x236 ./Core/Src/main.o
- .debug_macro   0x0001c4cb      0x132 ./Core/Src/main.o
- .debug_macro   0x0001c5fd      0x29c ./Core/Src/main.o
- .debug_macro   0x0001c899       0x2e ./Core/Src/main.o
- .debug_macro   0x0001c8c7      0x127 ./Core/Src/main.o
- .debug_macro   0x0001c9ee       0x91 ./Core/Src/main.o
- .debug_macro   0x0001ca7f       0x89 ./Core/Src/main.o
- .debug_macro   0x0001cb08      0x2aa ./Core/Src/main.o
- .debug_macro   0x0001cdb2      0x2d4 ./Core/Src/main.o
- .debug_macro   0x0001d086      0x126 ./Core/Src/main.o
- .debug_macro   0x0001d1ac       0x22 ./Core/Src/main.o
- .debug_macro   0x0001d1ce       0x61 ./Core/Src/main.o
- .debug_macro   0x0001d22f       0x2a ./Core/Src/main.o
- .debug_macro   0x0001d259       0x43 ./Core/Src/main.o
- .debug_macro   0x0001d29c       0x34 ./Core/Src/main.o
- .debug_macro   0x0001d2d0       0x16 ./Core/Src/main.o
- .debug_macro   0x0001d2e6       0x35 ./Core/Src/main.o
- .debug_macro   0x0001d31b      0x369 ./Core/Src/main.o
- .debug_macro   0x0001d684       0x10 ./Core/Src/main.o
- .debug_macro   0x0001d694       0x16 ./Core/Src/main.o
- .debug_macro   0x0001d6aa       0x43 ./Core/Src/main.o
- .debug_macro   0x0001d6ed       0x34 ./Core/Src/main.o
- .debug_macro   0x0001d721       0x10 ./Core/Src/main.o
- .debug_macro   0x0001d731       0x58 ./Core/Src/main.o
- .debug_macro   0x0001d789       0x8e ./Core/Src/main.o
- .debug_macro   0x0001d817       0x1c ./Core/Src/main.o
- .debug_macro   0x0001d833      0x177 ./Core/Src/main.o
- .debug_macro   0x0001d9aa       0x16 ./Core/Src/main.o
- .debug_macro   0x0001d9c0       0x16 ./Core/Src/main.o
- .debug_macro   0x0001d9d6      0x146 ./Core/Src/main.o
- .debug_macro   0x0001db1c      0x1d3 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_macro   0x0001dcef      0x221 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001df10       0xad ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001dfbd      0xd4f ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001ed0c       0x40 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001ed4c       0xb3 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001edff       0x2e ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001ee2d       0x10 ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x0001ee3d      0x274 ./Core/Src/syscalls.o
- .debug_macro   0x0001f0b1       0x5b ./Core/Src/syscalls.o
- .debug_macro   0x0001f10c       0x94 ./Core/Src/syscalls.o
- .debug_macro   0x0001f1a0       0x57 ./Core/Src/syscalls.o
- .debug_macro   0x0001f1f7       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f207       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f217       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f227       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f237       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x0001f253       0x52 ./Core/Src/syscalls.o
- .debug_macro   0x0001f2a5       0x22 ./Core/Src/syscalls.o
- .debug_macro   0x0001f2c7       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f2d7       0x52 ./Core/Src/syscalls.o
- .debug_macro   0x0001f329       0xcf ./Core/Src/syscalls.o
- .debug_macro   0x0001f3f8       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x0001f414       0x3d ./Core/Src/syscalls.o
- .debug_macro   0x0001f451       0x35 ./Core/Src/syscalls.o
- .debug_macro   0x0001f486      0x12c ./Core/Src/syscalls.o
- .debug_macro   0x0001f5b2       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x0001f5c8       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x0001f5de       0x29 ./Core/Src/syscalls.o
- .debug_macro   0x0001f607       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f617      0x242 ./Core/Src/syscalls.o
- .debug_macro   0x0001f859       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x0001f875       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0001f885      0x18a ./Core/Src/syscalls.o
- .debug_macro   0x0001fa0f       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x0001fa25       0xce ./Core/Src/syscalls.o
- .debug_macro   0x0001faf3       0xff ./Core/Src/sysmem.o
- .debug_macro   0x0001fbf2      0x23c ./Core/Src/sysmem.o
- .debug_macro   0x0001fe2e      0x1c4 ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x0001fff2      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x00020216      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x000203da      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x000205a4      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x0002076e      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
- .debug_macro   0x00020956      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x00020b3e      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_macro   0x00020d02      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
- .debug_macro   0x00020ec7      0x188 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x0002104f       0x9e ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x000210ed      0x10b ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x000211f8       0x16 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x0002120e      0x1b8 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
- .debug_macro   0x000213c6       0xa1 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
- .debug_macro   0x00021467      0x126 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
- .debug_macro   0x0002158d       0xa7 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
- .debug_macro   0x00021634       0x9e ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_macro   0x000216d2      0x14f ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_macro   0x00021821      0x1ae ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
- .debug_macro   0x000219cf      0x1b4 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
- .debug_macro   0x00021b83      0x16d ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
- .debug_macro   0x00021cf0      0x1a5 ./examples/upnp/MakeXML.o
- .debug_macro   0x00021e95       0x16 ./examples/upnp/MakeXML.o
- .debug_macro   0x00021eab      0x22f ./examples/upnp/UPnP.o
- .debug_macro   0x000220da       0x4c ./examples/upnp/UPnP.o
- .debug_macro   0x00022126      0x38b ./examples/upnp/app_main.o
- .debug_macro   0x000224b1       0x46 ./examples/upnp/app_main.o
- .debug_macro   0x000224f7      0x388 ./examples/upnp/hyperterminal.o
- .debug_macro   0x0002287f       0x22 ./examples/upnp/hyperterminal.o
- .debug_macro   0x000228a1       0x56 ./examples/upnp/hyperterminal.o
- .debug_macro   0x000228f7       0x1c ./examples/upnp/hyperterminal.o
- .debug_macro   0x00022913      0x2f3 ./port/wizchip_dhcp.o
- .debug_macro   0x00022c06      0x2e1 ./port/wizchip_qspi.o
+ .debug_macro   0x000002b5      0xaba ./Core/Src/main.o
+ .debug_macro   0x00000d6f      0x29b ./Core/Src/main.o
+ .debug_macro   0x0000100a       0x2e ./Core/Src/main.o
+ .debug_macro   0x00001038       0x28 ./Core/Src/main.o
+ .debug_macro   0x00001060       0x22 ./Core/Src/main.o
+ .debug_macro   0x00001082       0x8e ./Core/Src/main.o
+ .debug_macro   0x00001110       0x51 ./Core/Src/main.o
+ .debug_macro   0x00001161      0x103 ./Core/Src/main.o
+ .debug_macro   0x00001264       0x6a ./Core/Src/main.o
+ .debug_macro   0x000012ce      0x1df ./Core/Src/main.o
+ .debug_macro   0x000014ad       0x1c ./Core/Src/main.o
+ .debug_macro   0x000014c9       0x22 ./Core/Src/main.o
+ .debug_macro   0x000014eb       0xfb ./Core/Src/main.o
+ .debug_macro   0x000015e6     0x1011 ./Core/Src/main.o
+ .debug_macro   0x000025f7      0x11f ./Core/Src/main.o
+ .debug_macro   0x00002716    0x14798 ./Core/Src/main.o
+ .debug_macro   0x00016eae       0x6d ./Core/Src/main.o
+ .debug_macro   0x00016f1b     0x3693 ./Core/Src/main.o
+ .debug_macro   0x0001a5ae      0x189 ./Core/Src/main.o
+ .debug_macro   0x0001a737       0x5c ./Core/Src/main.o
+ .debug_macro   0x0001a793      0x980 ./Core/Src/main.o
+ .debug_macro   0x0001b113      0x9e9 ./Core/Src/main.o
+ .debug_macro   0x0001bafc      0x115 ./Core/Src/main.o
+ .debug_macro   0x0001bc11      0x192 ./Core/Src/main.o
+ .debug_macro   0x0001bda3       0xa5 ./Core/Src/main.o
+ .debug_macro   0x0001be48      0x16d ./Core/Src/main.o
+ .debug_macro   0x0001bfb5      0x287 ./Core/Src/main.o
+ .debug_macro   0x0001c23c       0x5f ./Core/Src/main.o
+ .debug_macro   0x0001c29b      0x236 ./Core/Src/main.o
+ .debug_macro   0x0001c4d1      0x132 ./Core/Src/main.o
+ .debug_macro   0x0001c603      0x29c ./Core/Src/main.o
+ .debug_macro   0x0001c89f       0x2e ./Core/Src/main.o
+ .debug_macro   0x0001c8cd      0x127 ./Core/Src/main.o
+ .debug_macro   0x0001c9f4       0x91 ./Core/Src/main.o
+ .debug_macro   0x0001ca85       0x89 ./Core/Src/main.o
+ .debug_macro   0x0001cb0e      0x2aa ./Core/Src/main.o
+ .debug_macro   0x0001cdb8      0x2d4 ./Core/Src/main.o
+ .debug_macro   0x0001d08c      0x126 ./Core/Src/main.o
+ .debug_macro   0x0001d1b2       0x22 ./Core/Src/main.o
+ .debug_macro   0x0001d1d4       0x61 ./Core/Src/main.o
+ .debug_macro   0x0001d235       0x2a ./Core/Src/main.o
+ .debug_macro   0x0001d25f       0x43 ./Core/Src/main.o
+ .debug_macro   0x0001d2a2       0x34 ./Core/Src/main.o
+ .debug_macro   0x0001d2d6       0x16 ./Core/Src/main.o
+ .debug_macro   0x0001d2ec       0x35 ./Core/Src/main.o
+ .debug_macro   0x0001d321      0x369 ./Core/Src/main.o
+ .debug_macro   0x0001d68a       0x10 ./Core/Src/main.o
+ .debug_macro   0x0001d69a       0x16 ./Core/Src/main.o
+ .debug_macro   0x0001d6b0       0x43 ./Core/Src/main.o
+ .debug_macro   0x0001d6f3       0x34 ./Core/Src/main.o
+ .debug_macro   0x0001d727       0x10 ./Core/Src/main.o
+ .debug_macro   0x0001d737       0x58 ./Core/Src/main.o
+ .debug_macro   0x0001d78f       0x8e ./Core/Src/main.o
+ .debug_macro   0x0001d81d       0x1c ./Core/Src/main.o
+ .debug_macro   0x0001d839      0x177 ./Core/Src/main.o
+ .debug_macro   0x0001d9b0       0x16 ./Core/Src/main.o
+ .debug_macro   0x0001d9c6       0x16 ./Core/Src/main.o
+ .debug_macro   0x0001d9dc      0x146 ./Core/Src/main.o
+ .debug_macro   0x0001db22      0x1d3 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_macro   0x0001dcf5      0x221 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001df16       0xa6 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001dfbc      0xd4f ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001ed0b       0x40 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001ed4b       0xb3 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001edfe       0x2e ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001ee2c       0x10 ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0001ee3c      0x274 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f0b0       0x5b ./Core/Src/syscalls.o
+ .debug_macro   0x0001f10b       0x94 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f19f       0x57 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f1f6       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f206       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f216       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f226       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f236       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x0001f252       0x52 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f2a4       0x22 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f2c6       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f2d6       0x52 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f328       0xcf ./Core/Src/syscalls.o
+ .debug_macro   0x0001f3f7       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x0001f413       0x3d ./Core/Src/syscalls.o
+ .debug_macro   0x0001f450       0x35 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f485      0x12c ./Core/Src/syscalls.o
+ .debug_macro   0x0001f5b1       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f5c7       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f5dd       0x29 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f606       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f616      0x242 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f858       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x0001f874       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x0001f884      0x18a ./Core/Src/syscalls.o
+ .debug_macro   0x0001fa0e       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x0001fa24       0xce ./Core/Src/syscalls.o
+ .debug_macro   0x0001faf2       0xff ./Core/Src/sysmem.o
+ .debug_macro   0x0001fbf1      0x23c ./Core/Src/sysmem.o
+ .debug_macro   0x0001fe2d      0x1c4 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x0001fff1      0x224 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x00020215      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x000203d9      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x000205a3      0x1ca ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x0002076d      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
+ .debug_macro   0x00020955      0x1e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x00020b3d      0x1c4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_macro   0x00020d01      0x1c5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_macro   0x00020ec6      0x188 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x0002104e       0x9e ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x000210ec      0x10b ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x000211f7       0x16 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x0002120d      0x1b8 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
+ .debug_macro   0x000213c5       0xa1 ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
+ .debug_macro   0x00021466      0x126 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
+ .debug_macro   0x0002158c       0xa0 ./Libraries/ioLibrary_Driver/Ethernet/socket.o
+ .debug_macro   0x0002162c       0x9e ./Libraries/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_macro   0x000216ca      0x14f ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_macro   0x00021819      0x1ae ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
+ .debug_macro   0x000219c7      0x1b4 ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
+ .debug_macro   0x00021b7b      0x16d ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
+ .debug_macro   0x00021ce8      0x1a5 ./examples/upnp/MakeXML.o
+ .debug_macro   0x00021e8d       0x16 ./examples/upnp/MakeXML.o
+ .debug_macro   0x00021ea3      0x394 ./examples/upnp/UPnP.o
+ .debug_macro   0x00022237       0x56 ./examples/upnp/UPnP.o
+ .debug_macro   0x0002228d       0x4c ./examples/upnp/UPnP.o
+ .debug_macro   0x000222d9      0x38b ./examples/upnp/app_main.o
+ .debug_macro   0x00022664       0x46 ./examples/upnp/app_main.o
+ .debug_macro   0x000226aa      0x388 ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00022a32       0x22 ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00022a54       0x1c ./examples/upnp/hyperterminal.o
+ .debug_macro   0x00022a70      0x2f3 ./port/wizchip_dhcp.o
+ .debug_macro   0x00022d63      0x2e1 ./port/wizchip_qspi.o
 
-.debug_line     0x00000000    0x16164
+.debug_line     0x00000000    0x1646e
  .debug_line    0x00000000      0x9ec ./Core/Src/main.o
  .debug_line    0x000009ec      0x832 ./Core/Src/stm32f4xx_hal_msp.o
  .debug_line    0x0000121e      0x944 ./Core/Src/stm32f4xx_it.o
@@ -9740,43 +9802,43 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x000105e6      0x772 ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
  .debug_line    0x00010d58      0xb9a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
  .debug_line    0x000118f2      0x762 ./examples/upnp/MakeXML.o
- .debug_line    0x00012054      0xffa ./examples/upnp/UPnP.o
- .debug_line    0x0001304e      0xb73 ./examples/upnp/app_main.o
- .debug_line    0x00013bc1      0xf67 ./examples/upnp/hyperterminal.o
- .debug_line    0x00014b28      0xa54 ./port/wizchip_dhcp.o
- .debug_line    0x0001557c      0xbe8 ./port/wizchip_qspi.o
+ .debug_line    0x00012054     0x1304 ./examples/upnp/UPnP.o
+ .debug_line    0x00013358      0xb73 ./examples/upnp/app_main.o
+ .debug_line    0x00013ecb      0xf67 ./examples/upnp/hyperterminal.o
+ .debug_line    0x00014e32      0xa54 ./port/wizchip_dhcp.o
+ .debug_line    0x00015886      0xbe8 ./port/wizchip_qspi.o
 
 .debug_str      0x00000000    0xc8606
- .debug_str     0x00000000    0xba6e7 ./Core/Src/main.o
-                              0xbaa35 (size before relaxing)
- .debug_str     0x000ba6e7       0xba ./Core/Src/stm32f4xx_hal_msp.o
-                              0xb719b (size before relaxing)
- .debug_str     0x000ba7a1     0x5eaa ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00000000    0xba70a ./Core/Src/main.o
+                              0xbaa58 (size before relaxing)
+ .debug_str     0x000ba70a       0xba ./Core/Src/stm32f4xx_hal_msp.o
+                              0xb71be (size before relaxing)
+ .debug_str     0x000ba7c4     0x5e87 ./Core/Src/stm32f4xx_it.o
                               0xbc6e1 (size before relaxing)
  .debug_str     0x000c064b     0x209d ./Core/Src/syscalls.o
-                               0x98c2 (size before relaxing)
+                               0x98e5 (size before relaxing)
  .debug_str     0x000c26e8       0x6b ./Core/Src/sysmem.o
-                               0x60da (size before relaxing)
+                               0x60fd (size before relaxing)
  .debug_str     0x000c2753       0xdb ./Core/Src/system_stm32f4xx.o
-                              0xb6558 (size before relaxing)
+                              0xb657b (size before relaxing)
  .debug_str     0x000c282e       0x44 ./Core/Startup/startup_stm32f412zgtx.o
                                  0x8d (size before relaxing)
  .debug_str     0x000c2872      0x612 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                              0xb70b6 (size before relaxing)
+                              0xb70d9 (size before relaxing)
  .debug_str     0x000c2e84      0x36b ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
-                              0xb6e0e (size before relaxing)
+                              0xb6e31 (size before relaxing)
  .debug_str     0x000c31ef      0x2e6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
-                              0xb694e (size before relaxing)
+                              0xb6971 (size before relaxing)
  .debug_str     0x000c34d5      0x121 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                              0xb66d9 (size before relaxing)
+                              0xb66fc (size before relaxing)
  .debug_str     0x000c35f6      0x6f0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.o
-                              0xb6fb5 (size before relaxing)
+                              0xb6fd8 (size before relaxing)
  .debug_str     0x000c3ce6      0x228 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
-                              0xb6991 (size before relaxing)
+                              0xb69b4 (size before relaxing)
  .debug_str     0x000c3f0e      0x235 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
-                              0xb6891 (size before relaxing)
+                              0xb68b4 (size before relaxing)
  .debug_str     0x000c4143      0x5ed ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
-                              0xb6f49 (size before relaxing)
+                              0xb6f6c (size before relaxing)
  .debug_str     0x000c4730      0xca6 ./Libraries/ioLibrary_Driver/Application/loopback/loopback.o
                                0xe173 (size before relaxing)
  .debug_str     0x000c53d6      0x1ea ./Libraries/ioLibrary_Driver/Ethernet/W6300/w6300.o
@@ -9788,13 +9850,13 @@ LOAD C:/ST/STM32CubeIDE_1.15.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_str     0x000c6599      0x8f3 ./Libraries/ioLibrary_Driver/Internet/DHCP/dhcp.o
                                0xad96 (size before relaxing)
  .debug_str     0x000c6e8c      0x16c ./Libraries/ioLibrary_Driver/Internet/TFTP/netutil.o
-                               0x7a47 (size before relaxing)
+                               0x7a6a (size before relaxing)
  .debug_str     0x000c6ff8      0xa6a ./Libraries/ioLibrary_Driver/Internet/httpServer/httpParser.o
                                0xe8ce (size before relaxing)
  .debug_str     0x000c7a62      0x2a9 ./examples/upnp/MakeXML.o
                                0xd7e2 (size before relaxing)
  .debug_str     0x000c7d0b      0x4aa ./examples/upnp/UPnP.o
-                               0xef03 (size before relaxing)
+                              0xc123d (size before relaxing)
  .debug_str     0x000c81b5      0x1a6 ./examples/upnp/app_main.o
                               0xc1097 (size before relaxing)
  .debug_str     0x000c835b      0x14c ./examples/upnp/hyperterminal.o

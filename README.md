@@ -90,7 +90,20 @@ git clone --recurse-submodules https://github.com/user/STM32F412-W6300-SoM-C.git
 
 Import the project: **File → Import → Existing Projects into Workspace** → select the cloned directory.
 
-### 3. Select Example
+### 3. Preprocessor Defines
+
+The following must be set in CubeIDE project settings:
+
+**Project → Properties → C/C++ Build → Settings → MCU GCC Compiler → Preprocessor → Define symbols:**
+
+| Define | Value | Description |
+|--------|-------|-------------|
+| `_WIZCHIP_` | `W6300` | WIZnet chip selection |
+| `_WIZCHIP_QSPI_MODE_` | `QSPI_QUAD_MODE` | QSPI bus mode (QUAD / DUAL / SINGLE) |
+
+> These defines override the defaults in `ioLibrary_Driver/Ethernet/wizchip_conf.h` via `#ifndef` guards, so the library source remains unmodified and can be used as a git submodule.
+
+### 4. Select Example
 
 Open `Core/Inc/main.h` and define **one** example macro in the `USER CODE BEGIN Private defines` section:
 
@@ -114,7 +127,7 @@ Open `Core/Inc/main.h` and define **one** example macro in the `USER CODE BEGIN 
 /* USER CODE END Private defines */
 ```
 
-### 4. Configure Network
+### 5. Configure Network
 
 Each example's `app_main.c` has a `NET_MODE` define to switch between DHCP and static IP:
 
@@ -123,7 +136,7 @@ Each example's `app_main.c` has a `NET_MODE` define to switch between DHCP and s
 //#define NET_MODE    NETINFO_STATIC
 ```
 
-### 5. SysTick Timer
+### 6. SysTick Timer
 
 Most examples require `app_timer_tick()` to be called from `SysTick_Handler()`. Add the following to `stm32f4xx_it.c`:
 
@@ -137,11 +150,11 @@ void SysTick_Handler(void)
 }
 ```
 
-### 6. Build and Flash
+### 7. Build and Flash
 
 Click **Build** (Ctrl+B) in STM32CubeIDE, then flash via ST-Link.
 
-### 7. Serial Monitor
+### 8. Serial Monitor
 
 Open a serial terminal at **115200 bps** to view output.
 
@@ -157,13 +170,15 @@ port/
 └── wizchip_dhcp.h       # DHCP wrapper declarations
 ```
 
-The QSPI port supports three modes (configurable in `wizchip_qspi.h`):
+The QSPI port supports three modes, configured via CubeIDE preprocessor defines (see [Step 3](#3-preprocessor-defines)):
 
-```c
-#define _WIZCHIP_QSPI_MODE_  QSPI_QUAD_MODE    // default
-//#define _WIZCHIP_QSPI_MODE_  QSPI_DUAL_MODE
-//#define _WIZCHIP_QSPI_MODE_  QSPI_SINGLE_MODE
-```
+| Define Value | Mode |
+|--------------|------|
+| `QSPI_QUAD_MODE` | Quad SPI (default, fastest) |
+| `QSPI_DUAL_MODE` | Dual SPI |
+| `QSPI_SINGLE_MODE` | Single SPI |
+
+**Project → Properties → C/C++ Build → Settings → MCU GCC Compiler → Preprocessor → Define symbols** 에서 `_WIZCHIP_QSPI_MODE_` 값을 변경하면 됩니다.
 
 Transfers shorter than `QSPI_DMA_THRESHOLD` (default: 16 bytes) use polling; longer transfers use DMA for efficiency.
 
@@ -177,7 +192,7 @@ Transfers shorter than `QSPI_DMA_THRESHOLD` (default: 16 bytes) use polling; lon
 
 ## References
 
-- [**W6300 Datasheet**](https://docs.wiznet.io/Product/iEthernet/W6300)
+- [**W6300 Datasheet**](https://docs.wiznet.io/Product/Chip/Ethernet/W6300)
 - [**STM32F412 Reference Manual**](https://www.st.com/resource/en/reference_manual/rm0402-stm32f412-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 - [**ioLibrary_Driver GitHub**](https://github.com/WIZnet-ioNIC/ioLibrary_Driver)
 - [**WIZnet-PICO-C**](https://github.com/WIZnet-ioNIC/WIZnet-PICO-C) — Original reference (RP2040/RP2350)
