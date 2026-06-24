@@ -18,9 +18,11 @@
 #include "mbedtls/debug.h"
 #include "mbedtls/error.h"
 
+#ifdef ENABLE_MTLS
 #include "cryptoauthlib.h"
 #include "tng_atca.h"
 #include "atca_mbedtls_wrap.h"
+#endif
 
 static mbedtls_ssl_context      s_ssl;
 static mbedtls_ssl_config       s_conf;
@@ -74,33 +76,38 @@ int tls_client_init(void)
     mbedtls_x509_crt_init(&s_clicert);
     mbedtls_pk_init(&s_pkey);
 
-#if 0 /* Enable for mTLS using TNGTLS device certificate */
+#ifdef ENABLE_MTLS
     {
         const atcacert_def_t *device_cert_def = NULL;
         ret = tng_get_device_cert_def(&device_cert_def);
         if (ret == ATCA_SUCCESS) {
-            if (device_cert_def->ca_cert_def != NULL) {
-                ret = atca_mbedtls_cert_add(&s_clicert, device_cert_def->ca_cert_def);
-                if (ret != 0)
-                    printf("[TLS] signer cert: %d (skipped)\r\n", ret);
-                else
-                    printf("[TLS] Signer cert loaded\r\n");
-            }
             ret = atca_mbedtls_cert_add(&s_clicert, device_cert_def);
             if (ret != 0)
-                printf("[TLS] device cert: %d (skipped)\r\n", ret);
+                printf("[TLS] device cert failed: %d\r\n", ret);
             else
                 printf("[TLS] Device cert loaded\r\n");
 
+            if (device_cert_def->ca_cert_def != NULL) {
+                ret = atca_mbedtls_cert_add(&s_clicert, device_cert_def->ca_cert_def);
+                if (ret != 0)
+                    printf("[TLS] signer cert failed: %d\r\n", ret);
+                else
+                    printf("[TLS] Signer cert loaded\r\n");
+            }
+
             ret = atca_mbedtls_pk_init(&s_pkey, 0);
             if (ret != 0)
-                printf("[TLS] pk_init: %d (skipped)\r\n", ret);
+                printf("[TLS] pk_init failed: %d\r\n", ret);
             else
                 printf("[TLS] PK -> ATECC608 slot 0\r\n");
+        } else {
+            printf("[TLS] tng_get_device_cert_def failed: 0x%02X\r\n", ret);
         }
     }
-#endif
+    printf("[TLS] mTLS: enabled\r\n");
+#else
     printf("[TLS] mTLS: disabled\r\n");
+#endif
 
     /* 4. SSL config */
     mbedtls_ssl_init(&s_ssl);
@@ -117,6 +124,9 @@ int tls_client_init(void)
 
     mbedtls_ssl_conf_authmode(&s_conf, MBEDTLS_SSL_VERIFY_NONE);
     mbedtls_ssl_conf_ca_chain(&s_conf, &s_cacert, NULL);
+#ifdef ENABLE_MTLS
+    mbedtls_ssl_conf_own_cert(&s_conf, &s_clicert, &s_pkey);
+#endif
     mbedtls_ssl_conf_rng(&s_conf, mbedtls_ctr_drbg_random, &s_ctr_drbg);
 
     mbedtls_ssl_conf_dbg(&s_conf, tls_debug_cb, NULL);

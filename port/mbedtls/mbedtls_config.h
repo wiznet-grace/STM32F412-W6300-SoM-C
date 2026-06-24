@@ -44,6 +44,7 @@
 #define MBEDTLS_PK_WRITE_C
 #define MBEDTLS_PKCS1_V15
 #define MBEDTLS_RSA_C
+#define MBEDTLS_SHA1_C
 #define MBEDTLS_SHA256_C
 
 /* === TLS modules === */

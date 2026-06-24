@@ -39,21 +39,27 @@ Supports both **DHCP** and **static IP**.
    - Mode: I2C, 100 kHz, 7-bit addressing
    - After code generation, ensure `MX_I2C2_Init()` is called before `app_main()`
 
-3. Select network mode in `app_main.c`:
+3. (Optional) Enable mTLS in `tls_client.h` to send the ATECC608C device certificate:
+
+```c
+#define ENABLE_MTLS
+```
+
+4. Select network mode in `app_main.c`:
 
 ```c
 #define NET_MODE    NETINFO_DHCP
 // #define NET_MODE    NETINFO_STATIC
 ```
 
-4. Set the TLS server IP in `app_main.c`:
+5. Set the TLS server IP in `app_main.c`:
 
 ```c
 static uint8_t g_tls_server_ip[] = {192, 168, 11, 2};
 #define TLS_SERVER_PORT        443
 ```
 
-5. Add the timer tick to `SysTick_Handler()` in `stm32f4xx_it.c`:
+6. Add the timer tick to `SysTick_Handler()` in `stm32f4xx_it.c`:
 
 ```c
 void SysTick_Handler(void)
@@ -65,7 +71,7 @@ void SysTick_Handler(void)
 }
 ```
 
-6. Generate a test server certificate and start the TLS server on your PC:
+7. Generate a test server certificate and start the TLS server on your PC:
 
 ```bash
 openssl ecparam -genkey -name prime256v1 -out server_key.pem
@@ -73,11 +79,11 @@ openssl req -new -x509 -key server_key.pem -out server.pem -days 365 -subj "/CN=
 openssl s_server -accept 443 -cert server.pem -key server_key.pem -tls1_2
 ```
 
-7. Build, flash, and open a serial terminal (115200 bps).
+8. Build, flash, and open a serial terminal (115200 bps).
 
 ## Expected Output
 
-### Serial Terminal
+### Serial Terminal (mTLS disabled)
 
 ```
 ========================================
@@ -109,7 +115,33 @@ openssl s_server -accept 443 -cert server.pem -key server_key.pem -tls1_2
 [TLS] Sent 43 bytes: Hello from STM32F412-W6300-SoM TLS Client
 ```
 
+### Serial Terminal (mTLS enabled)
+
+```
+[TLS] RNG seeded OK
+[TLS] Device cert loaded
+[TLS] Signer cert loaded
+[TLS] PK -> ATECC608 slot 0
+[TLS] mTLS: enabled
+[TLS] Init complete
+[TLS] Connecting to 192.168.11.2:443 ...
+[TLS] TCP connected
+[TLS] Starting TLS handshake...
+[TLS] Handshake OK!
+[TLS] Ciphersuite: TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
+[TLS] TLS version: TLSv1.2
+[TLS] Sent 43 bytes: Hello from STM32F412-W6300-SoM TLS Client
+```
+
 ### OpenSSL Server
+
+```bash
+# Without mTLS (default)
+openssl s_server -accept 443 -cert server.pem -key server_key.pem -tls1_2
+
+# With mTLS (request client certificate)
+openssl s_server -accept 443 -cert server.pem -key server_key.pem -tls1_2 -verify 1
+```
 
 ```
 ACCEPT
@@ -125,6 +157,7 @@ Type a message in the OpenSSL server terminal to echo it back to the board.
 
 The following can be modified in `app_main.c`:
 
+- `ENABLE_MTLS` — uncomment in `tls_client.h` to enable client certificate from ATECC608C (mTLS)
 - `NET_MODE` — `NETINFO_DHCP` or `NETINFO_STATIC`
 - `g_net_info` — MAC, static IP, gateway, subnet
 - `g_tls_server_ip` — TLS server IP address
@@ -132,8 +165,6 @@ The following can be modified in `app_main.c`:
 
 ## TLS Settings
 
-This example uses simplified TLS settings for initial bring-up:
-
-- **Server certificate verification**: disabled (`VERIFY_NONE`). The client does not validate the server's certificate. To enable, load a CA certificate into `s_cacert` and change `authmode` to `MBEDTLS_SSL_VERIFY_REQUIRED` in `tls_client.c`.
-- **mTLS (client certificate)**: disabled. The ATECC608C-TNGTLS can provide a device certificate for mutual TLS authentication. To enable, change `#if 0` to `#if 1` in `tls_client.c` and configure the server to request a client certificate.
+- **Server certificate verification**: disabled (`VERIFY_NONE`). To enable, load a CA certificate into `s_cacert` and change `authmode` to `MBEDTLS_SSL_VERIFY_REQUIRED` in `tls_client.c`.
+- **mTLS (client certificate)**: controlled by `ENABLE_MTLS` in `tls_client.h`. When enabled, the ATECC608C-TNGTLS device certificate and private key (slot 0) are used for client authentication. The OpenSSL server must use `-verify 1` to request the client certificate.
 - **Entropy source**: ATECC608C hardware RNG (`atcab_random()`), seeded into mbedTLS via `entropy_atecc608.c`.

@@ -80,8 +80,8 @@ void Error_Handler(void);
 //#define EXAMPLE_PPPOE
 //#define EXAMPLE_NETWORK_INSTALL
 //#define EXAMPLE_UPNP
-//#define EXAMPLE_TCP_CLIENT_OVER_SSL
-#define EXAMPLE_TCP_SERVER_OVER_SSL
+#define EXAMPLE_TCP_CLIENT_OVER_SSL
+//#define EXAMPLE_TCP_SERVER_OVER_SSL
 
 /* USER CODE END Private defines */
 
