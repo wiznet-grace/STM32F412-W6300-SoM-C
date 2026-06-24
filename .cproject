@@ -77,6 +77,7 @@
 									<listOptionValue builtIn="false" value="../Libraries/ioLibrary_Driver/Internet/SNMP"/>
 									<listOptionValue builtIn="false" value="../Libraries/ioLibrary_Driver/Internet/httpServer"/>
 									<listOptionValue builtIn="false" value="../examples/tcp_client_over_ssl"/>
+									<listOptionValue builtIn="false" value="../examples/tcp_server_over_ssl"/>
 									<listOptionValue builtIn="false" value="../port/atecc608"/>
 									<listOptionValue builtIn="false" value="../port/mbedtls"/>
 									<listOptionValue builtIn="false" value="../Libraries"/>
@@ -171,6 +172,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/pppoe"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/sntp"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/tcp_client_over_ssl"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/tcp_server_over_ssl"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/tcp_server_multi_socket"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/tftp"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="examples/udp"/>
