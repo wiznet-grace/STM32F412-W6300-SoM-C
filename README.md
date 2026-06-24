@@ -43,12 +43,19 @@ STM32F412-W6300-SoM-C/
 |   |-- tftp/                          # TFTP client
 |   |-- pppoe/                         # PPPoE client
 |   |-- network_install/               # Network init and PHY check
-|   `-- upnp/                          # UPnP IGD control point
+|   |-- upnp/                          # UPnP IGD control point
+|   |-- tcp_client_over_ssl/           # TLS 1.2 client (mbedTLS + ATECC608C)
+|   `-- tcp_server_over_ssl/           # TLS 1.2 echo server (mbedTLS + ATECC608C)
 |-- Libraries/
-|   `-- ioLibrary_Driver/              # WIZnet Ethernet driver submodule
+|   |-- ioLibrary_Driver/              # WIZnet Ethernet driver submodule
+|   |-- mbedtls/                       # mbedTLS 3.6 LTS submodule
+|   `-- cryptoauthlib/                 # Microchip CryptoAuthLib submodule
 |-- port/
-|   |-- wizchip_qspi.c/.h              # W6300 QSPI port layer
-|   `-- wizchip_dhcp.c/.h              # DHCP wrapper
+|   |-- atecc608/                      # ATECC608C driver, entropy source, I2C HAL
+|   |-- mbedtls/                       # Custom mbedtls_config.h (shadows library default)
+|   |-- wizchip_qspi.c/.h             # W6300 QSPI port layer
+|   |-- wizchip_dhcp.c/.h             # DHCP wrapper
+|   `-- wizchip_tls.c/.h              # mbedTLS BIO callbacks for W6300 sockets
 |-- STM32F412-W6300-SoM-C.ioc          # CubeMX project file
 |-- STM32F412-W6300-SoM-C.launch       # CubeIDE debug launch config
 `-- README.md
@@ -74,6 +81,17 @@ Select exactly one example macro in `Core/Inc/main.h`.
 | `pppoe` | `EXAMPLE_PPPOE` | PPPoE client connection |
 | `network_install` | `EXAMPLE_NETWORK_INSTALL` | Network init, PHY link check, and ping test |
 | `upnp` | `EXAMPLE_UPNP` | UPnP IGD discovery and port forwarding |
+| `tcp_client_over_ssl` | `EXAMPLE_TCP_CLIENT_OVER_SSL` | TLS 1.2 client (mbedTLS + ATECC608C), supports mTLS |
+| `tcp_server_over_ssl` | `EXAMPLE_TCP_SERVER_OVER_SSL` | TLS 1.2 echo server (mbedTLS + ATECC608C) |
+
+### TLS Examples
+
+Both TLS examples require **I2C2** enabled in STM32CubeMX for ATECC608C communication and use the ATECC608C hardware RNG as the entropy source.
+
+- **tcp_client_over_ssl**: Connects to an OpenSSL test server. Supports optional **mTLS** (mutual TLS) via `ENABLE_MTLS` in `tls_client.h` — when enabled, the ATECC608C-TNGTLS device certificate and private key (slot 0) are sent to the server for client authentication.
+- **tcp_server_over_ssl**: Listens for TLS client connections using an embedded test certificate. Echoes received data back over the encrypted channel.
+
+See each example's own README for setup details, OpenSSL commands, and expected output.
 
 ## Getting Started
 
@@ -134,6 +152,8 @@ Open `Core/Inc/main.h` and enable one example macro:
 //#define EXAMPLE_PPPOE
 //#define EXAMPLE_NETWORK_INSTALL
 //#define EXAMPLE_UPNP
+//#define EXAMPLE_TCP_CLIENT_OVER_SSL
+//#define EXAMPLE_TCP_SERVER_OVER_SSL
 /* USER CODE END Private defines */
 ```
 
@@ -168,10 +188,16 @@ The MCU-dependent W6300 code is in `port/`:
 
 ```text
 port/
-|-- wizchip_qspi.c      # W6300 QSPI read/write, DMA + polling hybrid
-|-- wizchip_qspi.h      # QSPI port declarations and mode selection
-|-- wizchip_dhcp.c      # DHCP client wrapper
-`-- wizchip_dhcp.h      # DHCP wrapper declarations
+|-- atecc608/
+|   |-- atca_config.h          # CryptoAuthLib project config
+|   |-- atecc608.c/.h          # ATECC608C init, serial, cert, ECDSA test
+|   |-- entropy_atecc608.c/.h  # mbedTLS entropy source (ATECC608 RNG)
+|   `-- hal_stm32_i2c.c       # CryptoAuthLib I2C HAL for STM32
+|-- mbedtls/
+|   `-- mbedtls_config.h       # Custom mbedTLS config (shadows library default)
+|-- wizchip_qspi.c/.h          # W6300 QSPI read/write, DMA + polling hybrid
+|-- wizchip_dhcp.c/.h          # DHCP client wrapper
+`-- wizchip_tls.c/.h           # mbedTLS BIO send/recv for W6300 sockets
 ```
 
 Transfers shorter than `QSPI_DMA_THRESHOLD` use polling; longer transfers use
@@ -182,6 +208,8 @@ DMA for efficiency.
 | Library | Location | Description |
 |---------|----------|-------------|
 | ioLibrary_Driver | `Libraries/ioLibrary_Driver` | WIZnet hardwired TCP/IP driver submodule |
+| mbedTLS | `Libraries/mbedtls` | mbedTLS 3.6 LTS — TLS, crypto, X.509 (submodule) |
+| CryptoAuthLib | `Libraries/cryptoauthlib` | Microchip CryptoAuthentication Library (submodule) |
 | STM32 HAL | `Drivers/STM32F4xx_HAL_Driver` | STM32F4 HAL drivers |
 | CMSIS | `Drivers/CMSIS` | Arm CMSIS headers |
 
