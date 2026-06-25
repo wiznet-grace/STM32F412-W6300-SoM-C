@@ -6,8 +6,8 @@ Ethernet examples for an STM32F412-based W6300 SoM board using
 ## Hardware
 
 - STM32F412 + W6300 SoM
-- WIZnet W6300 hardwired TCP/IP Ethernet chip
-- QSPI interface between STM32F412 and W6300
+- WIZnet W6300 hardwired TCP/IP Ethernet chip (QSPI interface)
+- Microchip ATECC608C-TNGTLS secure element (I2C2, used by TLS examples)
 - USART3 serial output at 115200 bps
 
 ## Development Environment
