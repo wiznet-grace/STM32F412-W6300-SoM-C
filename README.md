@@ -1,21 +1,44 @@
 # STM32F412 + W6300 SoM Reference Examples
 
-Ethernet examples for an STM32F412-based W6300 SoM board using
-[ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver) and STM32 HAL.
+Ethernet and TLS examples for the STM32F412 + W6300 SoM board using
+[ioLibrary_Driver](https://github.com/Wiznet/ioLibrary_Driver), STM32 HAL,
+mbedTLS, and CryptoAuthLib.
 
 ## Hardware
 
-- STM32F412 + W6300 SoM
-- WIZnet W6300 hardwired TCP/IP Ethernet chip
-- QSPI interface between STM32F412 and W6300
-- USART3 serial output at 115200 bps
+These examples target the STM32F412 + W6300 SoM board, which integrates:
+
+- STM32F412ZG MCU (1 MB Flash, 256 KB SRAM)
+- W6300 hardwired TCP/IP Ethernet chip (QSPI interface)
+- ATECC608C-TNGTLS secure element (I2C2, 7-bit address 0x35)
+
+### Pin Map
+
+| Function | STM32F412ZG Pin | Peripheral Signal | Note |
+|----------|-----------------|-------------------|------|
+| W6300 QSPI CLK | PB2 | QUADSPI_CLK | QSPI clock |
+| W6300 QSPI CSn | PB6 | QUADSPI_BK1_NCS | Hardware chip select |
+| W6300 QSPI IO0 | PC9 | QUADSPI_BK1_IO0 | QSPI data line |
+| W6300 QSPI IO1 | PC10 | QUADSPI_BK1_IO1 | QSPI data line |
+| W6300 QSPI IO2 | PC8 | QUADSPI_BK1_IO2 | QSPI data line |
+| W6300 QSPI IO3 | PA1 | QUADSPI_BK1_IO3 | QSPI data line |
+| W6300 RSTn | PC0 | GPIO output | Active-low reset |
+| W6300 INTn | PC1 | GPIO input | Active-low interrupt |
+| ATECC608C SCL | PB10 | I2C2_SCL | 100 kHz I2C |
+| ATECC608C SDA | PB9 | I2C2_SDA | 100 kHz I2C |
+| Serial TX | PD8 | USART3_TX | 115200 bps console |
+| Serial RX | PD9 | USART3_RX | 115200 bps console |
+| HSE OSC_IN | PH0 | RCC_OSC_IN | 8 MHz external oscillator |
+| HSE OSC_OUT | PH1 | RCC_OSC_OUT | 8 MHz external oscillator |
 
 ## Development Environment
 
 These examples were developed and tested with:
 
 - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) v1.15.1 or later
-- [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
+- [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) v6.12.1 if regenerating the `.ioc`
+- STM32Cube FW_F4 v1.28.3
+- Serial terminal on USART3 at 115200 bps, 8-N-1
 - [Hercules](https://www.hw-group.com/software/hercules-setup-utility) or another TCP/UDP test tool
 
 ## Directory Structure
@@ -86,9 +109,10 @@ Select exactly one example macro in `Core/Inc/main.h`.
 
 ### TLS Examples
 
-Both TLS examples require **I2C2** enabled in STM32CubeMX for ATECC608C communication and use the ATECC608C hardware RNG as the entropy source.
+Both TLS examples use the on-board **ATECC608C-TNGTLS** over **I2C2** and use
+the ATECC608C hardware RNG as the entropy source.
 
-- **tcp_client_over_ssl**: Connects to an OpenSSL test server. Supports optional **mTLS** (mutual TLS) via `ENABLE_MTLS` in `tls_client.h` — when enabled, the ATECC608C-TNGTLS device certificate and private key (slot 0) are sent to the server for client authentication.
+- **tcp_client_over_ssl**: Connects to an OpenSSL test server. Supports optional **mTLS** (mutual TLS) via `ENABLE_MTLS` in `tls_client.h`; when enabled, the ATECC608C-TNGTLS device certificate and private key (slot 0) are configured for client authentication.
 - **tcp_server_over_ssl**: Listens for TLS client connections using an embedded test certificate. Echoes received data back over the encrypted channel.
 
 See each example's own README for setup details, OpenSSL commands, and expected output.
@@ -135,7 +159,8 @@ Supported QSPI mode values are:
 
 ### 4. Select One Example
 
-Open `Core/Inc/main.h` and enable one example macro:
+Open `Core/Inc/main.h` and leave exactly one `EXAMPLE_*` macro uncommented.
+For example, to build the DHCP + DNS example:
 
 ```c
 /* USER CODE BEGIN Private defines */
@@ -180,7 +205,7 @@ Build the Debug configuration in STM32CubeIDE and flash with ST-Link.
 
 ### 8. Serial Monitor
 
-Open a serial terminal at 115200 bps to view example output.
+Open a serial terminal on USART3 at 115200 bps, 8-N-1 to view example output.
 
 ## Port Layer
 
@@ -208,7 +233,7 @@ DMA for efficiency.
 | Library | Location | Description |
 |---------|----------|-------------|
 | ioLibrary_Driver | `Libraries/ioLibrary_Driver` | WIZnet hardwired TCP/IP driver submodule |
-| mbedTLS | `Libraries/mbedtls` | mbedTLS 3.6 LTS — TLS, crypto, X.509 (submodule) |
+| mbedTLS | `Libraries/mbedtls` | mbedTLS 3.6 LTS for TLS, crypto, and X.509 (submodule) |
 | CryptoAuthLib | `Libraries/cryptoauthlib` | Microchip CryptoAuthentication Library (submodule) |
 | STM32 HAL | `Drivers/STM32F4xx_HAL_Driver` | STM32F4 HAL drivers |
 | CMSIS | `Drivers/CMSIS` | Arm CMSIS headers |
@@ -222,6 +247,8 @@ Third-party components keep their own licenses:
 - STM32 HAL: see `Drivers/STM32F4xx_HAL_Driver/LICENSE.txt`
 - CMSIS: Apache-2.0, see `Drivers/CMSIS/LICENSE.txt`
 - ioLibrary_Driver: MIT-style WIZnet license, see `Libraries/ioLibrary_Driver/license.txt`
+- mbedTLS: see `Libraries/mbedtls/LICENSE`
+- CryptoAuthLib: see `Libraries/cryptoauthlib/license.txt`
 
 ## References
 

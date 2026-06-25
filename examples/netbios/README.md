@@ -51,4 +51,4 @@ The following can be modified:
 
 - `NET_MODE` in `app_main.c` - `NETINFO_DHCP` or `NETINFO_STATIC`
 - `g_net_info` in `app_main.c` - MAC, static IP, gateway, subnet
-- `NETBIOS_BOARD_NAME` in `netbios.h` - NetBIOS hostname
+- `NETBIOS_BOARD_NAME` in `netbios.c` - NetBIOS hostname
