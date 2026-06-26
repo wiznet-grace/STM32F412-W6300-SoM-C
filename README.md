@@ -67,7 +67,7 @@ STM32F412-W6300-SoM-C/
 |   |-- pppoe/                         # PPPoE client
 |   |-- network_install/               # Network init and PHY check
 |   |-- upnp/                          # UPnP IGD control point
-|   |-- tcp_client_over_ssl/           # TLS 1.2 client (mbedTLS + ATECC608C)
+|   |-- tcp_client_over_ssl/           # TLS 1.2 echo client (mbedTLS + ATECC608C)
 |   `-- tcp_server_over_ssl/           # TLS 1.2 echo server (mbedTLS + ATECC608C)
 |-- Libraries/
 |   |-- ioLibrary_Driver/              # WIZnet Ethernet driver submodule
